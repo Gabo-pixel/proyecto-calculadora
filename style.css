@@ -1,0 +1,47 @@
+.padre{
+    background-image: url("recursos/cafeteria.webp") ;
+    display: flex;
+    padding: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 50vw;
+    justify-content: center;
+    flex-grow: initial;
+    border: 10px solid black
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 
+    
+}
+.padre div {
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+     
+}
+.suma{
+    background-color: red;
+    padding: 10px;
+    border: 10px solid black;
+    
+}
+.resta{
+    background-color: yellow;
+    padding: 20px;
+    border: 10px solid black;
+}
+.multiplicacion{
+    background-color: brown;
+    padding: 20px;
+}
+.division{
+    background-color: violet;
+    padding: 20px;
+}
+.titulo{
+    background-color: rebeccapurple;
+}
